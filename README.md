@@ -11,6 +11,7 @@
 2. エディタ下部のターミナルで以下のコマンドを実行する
 ```sh
 $ cd src
+$ pip install pandas
 $ python3 main.py
 # あなたのGPAは, ___です．
 ```
