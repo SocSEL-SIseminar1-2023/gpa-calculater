@@ -3,7 +3,7 @@ import pandas as pd
 #gpaを計算する関数の定義
 def get_gpa(score_list: list, credit_list: list):
 
-  # 引数の配列の中身をint方に変換
+  # 引数の配列の中身をint型に変換
   score_list, credit_list = convert2int(score_list, credit_list)
   
   # GP積の和を求める
@@ -28,7 +28,7 @@ def convert2int(score_list: list, credit_list: list):
   score_list_int = []
   credit_list_int = []
 
-  # int方に変換したものを格納
+  # int型に変換したものを格納
   for i in score_list:
     if not pd.isna(i):
       score_list_int.append(int(i))
