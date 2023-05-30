@@ -28,7 +28,7 @@ def convert2int(score_list: list, credit_list: list):
   score_list_int = []
   credit_list_int = []
 
-  # int型に変換したものを格納
+  # int方に変換したものを格納
   for i in score_list:
     if not pd.isna(i):
       score_list_int.append(int(i))
